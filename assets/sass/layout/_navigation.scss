@@ -1,0 +1,183 @@
+    //nav styles
+    .col-xs-3 {}
+    
+    .col-xs-9 {}
+    
+    .nav {
+        background-color: $black;
+        color: $white;
+        height: 4.375rem;
+        &__item {
+            margin-right: 1.25rem;
+        }
+        &__logo {}
+        &__logo--size {
+            width: 1.875rem;
+            height: 1.875rem;
+            margin-left: 0.625rem;
+            margin-top: 0.625rem;
+        }
+        &__menu {}
+        &__menu-items {
+            display: flex;
+            justify-content: end;
+            margin-top: 1.25rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+    
+    @media (min-width: $min-xs) and (max-width: $max-xs) {
+        .hamburger {
+            display: block;
+            color: $white;
+            position: relative;
+            left: 18.75rem;
+            margin-top: 1.875rem;
+            margin-bottom: 1.875rem;
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (min-width: $min-sm) and (max-width: $max-sm) {
+        .hamburger {
+            display: none;
+            color: $white;
+            position: relative;
+            left: 18.75rem;
+            margin-top: 1.875rem;
+            margin-bottom: 1.875rem;
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (min-width: $min-md) and (max-width: $max-md) {
+        .hamburger {
+            display: none;
+            color: $white;
+            position: relative;
+            left: 18.75rem;
+            margin-top: 1.875rem;
+            margin-bottom: 1.875rem;
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (min-width: $min-lg) and (max-width: $max-lg) {
+        .hamburger {
+            display: none;
+            color: $white;
+            position: relative;
+            left: 18.75rem;
+            margin-top: 1.875rem;
+            margin-bottom: 1.875rem;
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (min-width: $min-xl) and (max-width: $max-xl) {
+        .hamburger {
+            display: none;
+            color: $white;
+            position: relative;
+            left: 18.75rem;
+            margin-top: 1.875rem;
+            margin-bottom: 1.875rem;
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (min-width: $min-xxl) and (max-width: $max-xxl) {
+        .hamburger {
+            display: none;
+            color: $white;
+            position: relative;
+            left: 18.75rem;
+            margin-top: 1.875rem;
+            margin-bottom: 1.875rem;
+            font-size: 2.5rem;
+        }
+    }
+    /*
+    @media (min-width: $min-xs) and (max-width: $max-xs) {
+        .nav {
+            &__item {
+                display: none;
+            }
+            &__menu-items {
+                display: none;
+            }
+            .hamburguer {
+                display: block;
+            }
+        }
+    }
+    
+    @media (min-width: $min-sm) and (max-width: $max-sm) {
+        .nav {
+            &__item {
+                display: block;
+            }
+            &__menu-items {
+                display: block;
+            }
+            .hamburguer {
+                display: none;
+            }
+        }
+    }
+    
+    @media (min-width: $min-md) and (max-width: $max-md) {
+        .nav {
+            &__item {
+                display: block;
+            }
+            &__menu-items {
+                display: block;
+            }
+            .hamburguer {
+                display: none;
+            }
+        }
+    }
+    
+    @media (min-width: $min-lg) and (max-width: $max-lg) {
+        .nav {
+            &__item {
+                display: block;
+            }
+            &__menu-items {
+                display: block;
+            }
+            .hamburguer {
+                display: none;
+            }
+        }
+    }
+    
+    @media (min-width: $min-xl) and (max-width: $max-xl) {
+        .nav {
+            &__item {
+                display: block;
+            }
+            &__menu-items {
+                display: block;
+            }
+            .hamburguer {
+                display: none;
+            }
+        }
+    }
+    
+    @media (min-width: $min-xxl) and (max-width: $max-xxl) {
+        .nav {
+            &__item {
+                display: block;
+            }
+            &__menu-items {
+                display: block;
+            }
+            .hamburguer {
+                display: none;
+            }
+        }
+    }*/

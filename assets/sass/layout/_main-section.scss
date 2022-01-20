@@ -1,0 +1,100 @@
+.main-section {
+    width: 46%;
+    height: 65.625rem;
+    border: 1px solid black;
+    position: relative;
+    bottom: 18.75rem;
+    margin-left: 1.25rem;
+    padding: 0.938rem;
+    &__div-html {
+        width: 46.875rem;
+        height: 30rem;
+        border: 0.5px solid black;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        margin-bottom: 1.875rem;
+        margin-top: 1.25rem;
+        &--h1 {
+            font-family: $ubuntubold;
+            font-weight: 700;
+            font-size: $large;
+            margin-top: 0.625rem;
+            margin-left: 0.625rem;
+            margin-bottom: 0.625rem;
+        }
+        &--h3 {
+            font-family: $ubuntubold;
+            font-weight: 700;
+            font-size: $medium;
+            margin-top: 0.625rem;
+            margin-left: 0.625rem;
+        }
+        &--image {
+            width: 43.75rem;
+            margin-top: 1.25rem;
+            margin-left: 1.25rem;
+        }
+        &--paragraphe {
+            font-family: $poppinsregular;
+            font-weight: 400;
+            font-size: $small;
+            margin-top: 0.625rem;
+            margin-left: 0.625rem;
+            margin-bottom: 0.625rem;
+        }
+        &.far,
+        .fas {
+            margin-left: 0.625rem;
+        }
+        &--icons {
+            margin-left: 0.625rem;
+            margin-top: 0.625rem;
+        }
+    }
+    &__div-sass {
+        width: 46.875rem;
+        height: 30rem;
+        border: 0.5px solid black;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        margin-bottom: 1.875rem;
+        margin-top: 1.25rem;
+        &--h2 {
+            font-family: $ubuntubold;
+            font-weight: 700;
+            font-size: $large;
+            margin-top: 0.625rem;
+            margin-left: 0.625rem;
+            margin-bottom: 0.625rem;
+        }
+        &--h3 {
+            font-family: $ubuntubold;
+            font-weight: 700;
+            font-size: $medium;
+            margin-top: 0.625rem;
+            margin-left: 0.625rem;
+        }
+        &--image {
+            width: 43.75rem;
+            height: 18.75rem;
+            margin-left: 1.25rem;
+            margin-top: 1.25rem;
+        }
+        &.far,
+        .fas {
+            margin-left: 0.625rem;
+        }
+        &--icons {
+            margin-left: 0.625rem;
+            margin-top: 0.625rem;
+        }
+        &--paragraphe {
+            font-family: $poppinsregular;
+            font-weight: 400;
+            font-size: $small;
+            margin-top: 0.625rem;
+            margin-left: 0.625rem;
+            margin-bottom: 0.625rem;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@media (min-width: $min-sm) {
+    .body {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $min-md) {
+    .body {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $min-lg) {
+    .body {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $min-xl) {
+    .body {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $min-xxl) {
+    .body {
+        width: 75%;
+        margin: 0 auto;
+    }
+}

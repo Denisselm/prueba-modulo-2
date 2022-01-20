@@ -1,0 +1,50 @@
+.footer {
+    height: 3.75rem;
+    background-color: $black;
+    color: $white;
+    position: relative;
+    bottom: 85.625rem;
+    height: 6.25rem;
+    display: flex;
+    &__buttons {
+        justify-content: end;
+        margin-left: 50rem;
+        margin-bottom: 3.125rem;
+        position: relative;
+        bottom: 1.25rem;
+    }
+    &__button {
+        justify-content: end;
+        margin-bottom: 3.125rem;
+        background-color: $orange;
+    }
+    .footer__button:hover,
+    .footer__button:focus-visible {
+        background-color: $white;
+    }
+    &__input {
+        justify-content: end;
+        margin-bottom: 3.125rem;
+    }
+    .footer__input:hover,
+    .footer__input:focus-visible {
+        background-color: $tangerine;
+    }
+    &__list-ul {
+        display: flex;
+        justify-content: center;
+    }
+    &__li-one {
+        margin-left: 1.875rem;
+    }
+    &__li-two {
+        margin-left: 1.875rem;
+    }
+    &__list {
+        margin-top: 3.125rem;
+    }
+    &__rights {
+        margin-left: 6.25rem;
+        margin-top: 3.125rem;
+    }
+}

@@ -1,0 +1,71 @@
+.article {
+    width: 46%;
+    height: 65.625rem;
+    border: 1px solid black;
+    position: relative;
+    left: 53.125rem;
+    bottom: 1383px;
+    margin-left: 1.25rem;
+    padding: 0.938rem;
+    &__icons {
+        text-align: center;
+        margin-right: 1.875rem;
+        margin-bottom: 1.25rem;
+    }
+    &__image {
+        width: 12.5rem;
+        height: 12.5rem;
+        border-radius: 50%;
+        text-align: center;
+        border: 1px solid black;
+        position: relative;
+        left: 17.5rem;
+        margin-bottom: 1.25rem;
+    }
+    &__courses {
+        text-align: center;
+        margin-bottom: 1.25rem;
+        font-family: 'Ubuntu';
+        font-size: $large;
+        font-weight: 700;
+        margin-right: 1.875rem;
+    }
+    &__line {
+        background-color: $charcoal;
+        font-family: 'ubuntu';
+        font-weight: 600;
+        color: $white;
+        text-align: center;
+    }
+    &__list {}
+    &__list-unordered {
+        list-style: circle;
+        margin-left: 1.25rem;
+        text-decoration: none;
+        margin-top: 1.25rem;
+        &--font {
+            font-family: 'Ubuntu';
+            font-size: $small;
+            font-weight: 600;
+            margin-top: 0.625rem;
+        }
+    }
+    &__paragraphe {
+        font-family: 'Poppins';
+        font-size: $small;
+        font-weight: 500;
+        margin-bottom: 1.25rem;
+    }
+    &__svg {
+        width: 12.25em;
+        height: 18.75rem;
+        text-align: center;
+        margin-left: 18.75rem;
+    }
+    .fa-facebook-f {}
+    .fa-github {}
+    .fa-twitter {}
+    .fab {}
+    .label {}
+    .nut {}
+}
